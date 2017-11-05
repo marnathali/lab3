@@ -61,7 +61,153 @@
       </form>
     </div>
   </header>
+
+<body>
+  <div class="container-fluid bajar">
+      <div class="col-xs-7">
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+         <ol class="carousel-indicators">
+           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+           <li data-target="#myCarousel" data-slide-to="1"></li>
+           <li data-target="#myCarousel" data-slide-to="2"></li>
+           <li data-target="#myCarousel" data-slide-to="3"></li>
+           <li data-target="#myCarousel" data-slide-to="4"></li>
+
+         </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="img/gente.jpg" alt="calle" style="width:100%;">
+        <div class="carousel-caption">
+          <h2> <strong>CrowdHelping</strong></h2>
+          <p>A diferencia de otras plataformas, CrowdHelping brinda el apoyo y los incentivos necesarios para que las organizaciones que participen logren llegar a su meta de recaudación</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://www.eroski.es/wp-content/uploads/2015/11/AppCamino_grande.jpg" alt="intercambios" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>A traves de <strong>CrowdHelping</strong> </h3>
+           
+             <p> Las organizaciones sin fines de lucro recaudan fondos y les dan visibilidad a sus proyectos,
+             en la plataforma <strong>CrowdHelping</strong> puedes compartir tu obra benéfica a todos los usuarios
+             que forman parte de nuestra comunidad </p>
+           
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="https://ninosglobaltech.com/wp-content/uploads/2016/08/ninos-banner-1400-x-700-1.jpg" alt="camino" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Únete a <strong>CrowdHelping</strong></h3>
+          <p> Y forma parte del cambio </p>
+          <p>"Si ayudo a una sola persona a tener esperanza, no habré vivido en vano.”</p>
+          <p> Martin Luther King. </p>
+        </div>        
+      </div> 
+
+        <div class="item">
+        <img src="https://ninosglobaltech.com/wp-content/uploads/2016/08/ninos-banner-1400-x-700-1.jpg" alt="camino" style="width:100%;">
+        <div class="carousel-caption">
+          <p> <h2> <strong>CrowdHelping</strong></h2></p>
+          <p>“No hay nada más fuerte en el mundo que el corazón de un voluntario.”</p>
+          <p> Coronel James H. Doolittle. </p>
+        </div>        
+      </div>
+
+      <div class="item">
+        <img src="img/globalgoals.jpg" alt="camino" style="width:100%;">
+        <div class="carousel-caption">
+          <p> <h2> <strong>CrowdHelping</strong></h2></p>
+          <p> a través de las 17 metas globales (The Global Goals), te permite seguir a aquellas organizaciones sin fines de </p>
+          <p> lucro que se enfoque en algunas de ellas.</p>
+        </div>        
+      </div>  
   
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  </div>
+
+  <div class="col-md-5">
+
+ <div class="panel panel-default friends">
+  <div class="panel-heading">
+    <h3 class="panel-title">Registrate es Gratis</h3>
+  </div>
+  <div class="panel-body">
+   
+      <div class="group-item">
+      <label class="" for="exampleInputEmail3">Con tu red social</label>   
+     
+      <ul class="">
+         <div>
+      <li> <button type="button" class="btn btn-danger btn-lg btn-block" onclick="gr.google.connect();" tabindex="5"><span> <i class="fa fa-google-plus-square" aria-hidden="true"></i> Google</span></button></li>
+    </div>
+       <div>
+      <li><button type="button" class="botonface btn btn-primary btn-lg btn-block" onclick="gr.facebook.connect();" tabindex="6"><i class="fa fa-facebook" aria-hidden="true"></i><span> Facebook</span></button></li>
+       </div>
+       <div>
+      <li><button type="button" class="btn btn-info btn-lg btn-block" onclick="gr.twitter.connect();" tabindex="7"><i class="fa fa-twitter-square" aria-hidden="true"></i><span> Twitter</span></button></li>
+     </div>
+    </ul>
+     
+      </div>
+    
+    <ul>
+      
+
+         <div class="form-group">
+          <div>
+             <label class="" for="exampleInputEmail3">Nombre:</label>
+          
+            <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Introduzca Nombre"><br>
+        
+            <label class="" for="exampleInputEmail3">Correo Electronico:</label>
+          
+            <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Introduzca Email"><br>
+
+           <label class="" for="exampleInputPassword3">Contraseña:</label>   
+          
+           <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Introduzca Contraseña"><br>
+
+          <label class="" for="exampleInputPassword3">Confirmar Contraseña:</label>   
+          
+           <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Introduzca Confirmación de Contraseña">
+
+          </div><br>
+          <input type="radio" name="transporte" value="1"><a href="url">Acepto terminos y condiciones</a>
+        </div>
+        
+      
+       </ul>
+       <ul>
+         <li>
+
+           <div class="clearfix"></div>
+       <a class="btn btn-success btn-lg" href="#">Registrar</a>
+         </li>
+       </ul>
+       
+     </div>
+   </div>
+</div>
+
+
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
